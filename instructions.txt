@@ -1,0 +1,11 @@
+Create new "swiftmarket" database in phpMyAdmin and run the sql script
+Set absolute path in config/config.php
+
+
+Credentials for 2 initial accounts:
+
+Username: admin
+Password: Admin_123z
+
+Username: user
+Password: userPw11

@@ -1,0 +1,200 @@
+2021-06-04 16:59:21
+mihailoilic
+::1
+/PraktPHP/swiftmarket/models/products/get-products.php
+1
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_name' in 'order clause'
+-------
+
+2021-06-04 18:09:54
+mihailoilic
+::1
+/PraktPHP/swiftmarket/models/products/get-products.php
+true
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 5
+-------
+
+2021-06-04 18:09:55
+mihailoilic
+::1
+/PraktPHP/swiftmarket/models/products/get-products.php
+false
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 5
+-------
+
+2021-06-04 18:09:57
+mihailoilic
+::1
+/PraktPHP/swiftmarket/models/products/get-products.php
+false
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 5
+-------
+
+2021-06-04 18:09:58
+mihailoilic
+::1
+/PraktPHP/swiftmarket/models/products/get-products.php
+true
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-8, 8' at line 5
+-------
+
+2021-06-04 23:15:38
+test222
+::1
+/PraktPHP/swiftmarket/index.php
+product
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'No ratings yet') AS rating FROM products p JOIN images i ON i.product_id = ...' at line 1
+-------
+
+2021-06-04 23:15:40
+test222
+::1
+/PraktPHP/swiftmarket/index.php
+product
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' 'No ratings yet') AS rating FROM products p JOIN images i ON i.product_id = ...' at line 1
+-------
+
+2021-06-06 20:10:50
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/change-cover-image.php
+(no target page)
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'image_title) VALUES('0.185911001623003050.jpg','0.275427001623003050-thumbnai...' at line 1
+-------
+
+2021-06-06 20:13:08
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/change-cover-image.php
+(no target page)
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+-------
+
+2021-06-07 00:05:06
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/add-category.php
+(no target page)
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+-------
+
+2021-06-07 00:08:01
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/add-category.php
+(no target page)
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+-------
+
+2021-06-07 00:27:01
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/remove-category.php
+(no target page)
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+-------
+
+2021-06-07 00:27:55
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/remove-category.php
+(no target page)
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+-------
+
+2021-06-07 00:29:08
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/remove-category.php
+(no target page)
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+-------
+
+2021-06-07 00:30:15
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/remove-category.php
+(no target page)
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+-------
+
+2021-06-07 00:34:49
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/remove-category.php
+(no target page)
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+-------
+
+2021-06-07 00:35:20
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/remove-category.php
+(no target page)
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+-------
+
+2021-06-08 22:37:49
+admin
+::1
+/PraktPHP/swiftmarket/index.php
+admin-see-offers
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.product_name' in 'field list'
+-------
+
+2021-06-08 22:37:59
+admin
+::1
+/PraktPHP/swiftmarket/index.php
+admin-see-offers
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.product_name' in 'field list'
+-------
+
+2021-06-08 23:25:08
+admin
+::1
+/PraktPHP/swiftmarket/index.php
+admin-see-offers
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.price' in 'field list'
+-------
+
+2021-06-08 23:33:04
+admin
+::1
+/PraktPHP/swiftmarket/index.php
+admin-see-chat
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'swiftmarket.product' doesn't exist
+-------
+
+2021-06-08 23:34:41
+admin
+::1
+/PraktPHP/swiftmarket/index.php
+admin-see-chat
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'swiftmarket.product' doesn't exist
+-------
+
+2021-06-08 23:37:53
+admin
+::1
+/PraktPHP/swiftmarket/index.php
+admin-see-chat
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'message_sent' in 'order clause'
+-------
+
+2021-06-08 23:38:08
+admin
+::1
+/PraktPHP/swiftmarket/index.php
+admin-see-chat
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'm.message_sent' in 'order clause'
+-------
+
+2021-06-10 00:45:40
+admin
+::1
+/PraktPHP/swiftmarket/models/admin/add-category.php
+(no target page)
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''0')' at line 1
+-------
+
