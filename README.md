@@ -1,2 +1,1 @@
-# SWIFTMARKET
-PHP
+A project for college PHP practicum course.
